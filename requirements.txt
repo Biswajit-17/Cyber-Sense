@@ -1,0 +1,14 @@
+chromadb
+sentence-transformers
+pyPDF2
+langchain
+transformers
+streamlit
+fastapi
+uvicorn
+python-dotenv
+langdetect
+google-generativeai
+langchain-community
+sentencepiece
+pycryptodome

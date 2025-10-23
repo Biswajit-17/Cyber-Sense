@@ -4,8 +4,6 @@ pyPDF2
 langchain
 transformers
 streamlit
-fastapi
-uvicorn
 python-dotenv
 langdetect
 google-generativeai

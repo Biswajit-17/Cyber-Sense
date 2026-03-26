@@ -78,5 +78,5 @@ Launch the Streamlit interface:
 streamlit run app.py
 ```
 
-## 🛡️ Disclaimer
+## Disclaimer
 **CyberSense** is an AI tool for informational purposes only. It is **not** a substitute for professional legal advice. Users should always consult with a qualified attorney for legal concerns.

@@ -2,14 +2,14 @@
 
 **CyberSense** is an AI-powered legal assistant designed to provide guidance on Indian Cyber Laws. It uses **Retrieval-Augmented Generation (RAG)** to answer user queries by retrieving relevant legal clauses from a curated knowledge base of PDF documents and synthesizing responses using the **Groq** API (Llama 3).
 
-## 🚀 Features
+## Features
 
 *   **RAG Architecture**: Retrieves accurate legal context from local PDF documents to ground AI responses and minimize hallucinations.
 *   **Semantic Search**: Uses **ChromaDB** and **SentenceTransformers** (`all-MiniLM-L6-v2`) to find the most relevant legal sections based on user queries.
 *   **Interactive Chat UI**: Built with **Streamlit**, featuring persistent chat history and a professional legal advisor persona.
 *   **Document Ingestion Engine**: Automatically processes, splits, and embeds PDF legal documents for the knowledge base.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   **Frontend**: Streamlit
 *   **LLM Inference**: Groq API (Llama 3.1)
@@ -18,7 +18,7 @@
 *   **Data Processing**: LangChain (Text Splitting), PyPDF2
 *   **Language**: Python 3.x
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 CyberSense/
@@ -32,7 +32,7 @@ CyberSense/
     └── retrieve.py       # RAG logic, Groq API integration, and prompt building
 ```
 
-## ⚡ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -61,7 +61,7 @@ GROK_API_KEY=your_groq_api_key_here
 GROK_MODEL=llama-3.1-8b-instant
 ```
 
-## 🏃 Usage
+## Usage
 
 ### Step 1: Build the Knowledge Base
 Before running the app for the first time (or after adding new PDFs), you must process the documents. Place your legal PDFs in `data/cyber_laws/` and run:
